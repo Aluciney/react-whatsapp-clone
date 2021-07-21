@@ -1,4 +1,4 @@
-## Microsoft Teams Clone - Electron + TypeScript + React
+## WhatsApp Clone - Electron + TypeScript + React
 
 Boilerplate for a project using Electron, React and Typescript.
 
