@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { IoIosSearch } from 'react-icons/io';
-import { BsArrowLeft } from 'react-icons/bs';
+import { HiArrowLeft } from 'react-icons/hi';
 import {
 	Container,
 	InputContainer,
@@ -41,7 +41,7 @@ const Search: React.FC = () => {
 					{!isFocused ? (
 						<IoIosSearch />
 					) : (
-						<BsArrowLeft />
+						<HiArrowLeft size={22}/>
 					)}
 				</IconSearch>
 				<InputSearch

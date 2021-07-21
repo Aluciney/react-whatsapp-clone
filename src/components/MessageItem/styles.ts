@@ -19,8 +19,12 @@ export const Container = styled.button`
 		background-color: var(--quinary);
 	}
 
-	:hover {
+	&:hover {
 		background-color: var(--quaternary2);
+	}
+
+	&.active {
+		background-color: var(--quaternary3);
 	}
 `;
 

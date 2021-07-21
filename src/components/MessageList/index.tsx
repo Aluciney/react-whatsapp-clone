@@ -13,7 +13,7 @@ const MessageList: React.FC = () => {
 			<HeaderProfile />
 			<Search />
 			<List>
-				<MessageItem />
+				<MessageItem active />
 				<MessageItem />
 				<MessageItem />
 				<MessageItem />

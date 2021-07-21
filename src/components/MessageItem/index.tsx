@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ButtonHTMLAttributes } from 'react';
 import Avatar from '../Avatar';
 
 import {
@@ -9,9 +9,13 @@ import {
 	ButtonsOptions
 } from './styles';
 
-const MessageItem: React.FC = () => {
+export interface Props extends ButtonHTMLAttributes<HTMLElement> {
+	active?: boolean;
+}
+
+const MessageItem: React.FC<Props> = ({ active }) => {
 	return (
-		<Container>
+		<Container className={active ? 'active' : ''}>
 			<InfoMessage>
 				<Avatar />
 				<div>

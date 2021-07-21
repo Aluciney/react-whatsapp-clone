@@ -7,6 +7,7 @@ export default createGlobalStyle`
 		--tertiary: #00bfa5;
 		--quaternary: #292b2f;
 		--quaternary2: #323739;
+		--quaternary3: #373c3e;
 		--quinary: #3c4247;
 		--senary: #828386;
 		
