@@ -7,14 +7,14 @@ export const Container = styled.button`
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
-	padding: 12px 15px;
+	padding: 12px 12px;
 
 	:not(:last-child):not(:hover) :before {
 		content: '';
 		position: absolute;
 		bottom: -1px;
 		right: 0;
-		width: calc(100% - 42px - 40px);
+		width: calc(100% - 78px);
 		height: 1px;
 		background-color: var(--quinary);
 	}
@@ -34,7 +34,7 @@ export const InfoMessage = styled.div`
 	align-items: center;
 
 	div {
-		margin-left: 20px;
+		margin-left: 15px;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;

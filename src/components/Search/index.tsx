@@ -38,15 +38,12 @@ const Search: React.FC = () => {
 		<Container>
 			<InputContainer>
 				<IconSearch>
-					{!isFocused ? (
-						<IoIosSearch />
-					) : (
-						<HiArrowLeft size={22}/>
-					)}
+					<IoIosSearch style={{ display: isFocused ? 'none' : 'block' }}/>
+					<HiArrowLeft style={{ display: isFocused ? 'block' : 'none' }}/>
 				</IconSearch>
 				<InputSearch
 					ref={searchRef}
-					placeholder={!isFocused ? 'Pesquisar ou começar uma nova conversa' : ''}
+					placeholder={'Pesquisar ou começar uma nova conversa'}
 					onChange={e => setSearchText(e.target.value)}
 					value={searchText}
 				/>
