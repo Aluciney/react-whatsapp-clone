@@ -18,7 +18,6 @@ export default createGlobalStyle`
 		--chat-input: rgb(64,68,75);
 		--symbol: #74777a;
 		--notification: #f84a4b;
-		--discord: #6e86d6;
 		--link: #5d80d6;
 	}
 
